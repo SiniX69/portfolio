@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio BTS SIO SISR de Jérémy Vallon — administration systèmes, réseaux et support informatique.">
+  <title>Jérémy Vallon — Portfolio BTS SIO SISR</title>
+  <link rel="icon" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#accueil" aria-label="Accueil">
+        <span class="brand-mark">JV</span>
+        <span>Jérémy Vallon</span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#a-propos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> BTS SIO — SISR · 2e année</div>
+          <h1 id="hero-title">Jérémy <span>Vallon</span></h1>
+          <p class="hero-role" id="hero-role">Administrateur systèmes & réseaux — en devenir</p>
+          <p class="hero-description" id="hero-description"></p>
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">Voir mes projets <span>→</span></a>
+            <a id="hero-cv" href="#" class="btn btn-ghost" target="_blank" rel="noopener">Télécharger mon CV</a>
+          </div>
+          <div class="hero-links" id="hero-links"></div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="terminal">
+            <div class="terminal-top"><span></span><span></span><span></span><b>portfolio.sh</b></div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="terminal-output">Jérémy Vallon</p>
+              <p><span class="prompt">$</span> focus</p>
+              <p class="terminal-output">réseaux · systèmes · dépannage</p>
+              <p><span class="prompt">$</span> certification</p>
+              <p class="terminal-output">CCNA 1</p>
+              <p><span class="prompt">$</span> status</p>
+              <p class="terminal-output online">● disponible pour une alternance</p>
+              <span class="cursor">▋</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section id="a-propos" class="section">
+      <div class="container two-col">
+        <div>
+          <div class="section-label">01 — Profil</div>
+          <h2>Construire, administrer,<br><span>résoudre.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p id="about-text"></p>
+          <div class="facts" id="profile-facts"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label">02 — Compétences</div>
+            <h2>Mon environnement<br><span>technique.</span></h2>
+          </div>
+          <p>Des compétences développées en formation, en stage et sur des projets pratiques.</p>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label">03 — Réalisations</div>
+            <h2>Projets & <span>preuves.</span></h2>
+          </div>
+          <p>Des réalisations techniques documentées et reliées aux compétences du BTS SIO.</p>
+        </div>
+        <div class="filter-bar" id="project-filters"></div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section section-alt">
+      <div class="container">
+        <div class="section-label">04 — Parcours</div>
+        <h2>Formation & <span>expériences.</span></h2>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label">05 — Certifications</div>
+            <h2>Certifications & <span>formation.</span></h2>
+          </div>
+        </div>
+        <div class="cert-grid" id="certifications-grid"></div>
+      </div>
+    </section>
+
+    <section id="bts" class="section section-alt">
+      <div class="container">
+        <div class="section-label">06 — BTS SIO SISR</div>
+        <div class="section-head">
+          <div><h2>Les 6 domaines de <span>compétences.</span></h2></div>
+          <p>Les réalisations sont progressivement reliées aux compétences officielles du référentiel.</p>
+        </div>
+        <div class="competency-grid" id="competency-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <div class="section-label">07 — Contact</div>
+          <h2>Un projet, une alternance,<br><span>une question ?</span></h2>
+          <p id="contact-text"></p>
+        </div>
+        <div class="contact-actions" id="contact-actions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Jérémy Vallon</span>
+      <span>BTS SIO SISR · Portfolio E5</span>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
