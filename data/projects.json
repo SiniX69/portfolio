@@ -28,10 +28,10 @@
     "period": "18/05/2026 → 19/06/2026",
     "type": "Stage 1",
     "categories": [
-      "Stage 1",
-      "Réseaux"
+      "Réseau",
+      "Stage"
     ],
-    "summary": "Inventaire des maquettes Raspberry Pi et des équipements réseau utilisés dans l’environnement de formation.",
+    "summary": "Inventaire et organisation du matériel réseau et des maquettes pédagogiques utilisées dans l’établissement.",
     "technologies": [
       "Raspberry Pi",
       "Switchs"
@@ -42,14 +42,14 @@
     "document": ""
   },
   {
-    "title": "Déploiement de l’outil de supervision Veyon",
-    "period": "18/05/2026 → 19/06/2026",
-    "type": "Stage 1",
+    "title": "Déploiement Veyon",
+    "period": "Stage 1",
+    "type": "Stage",
     "categories": [
-      "Stage 1",
-      "Systèmes"
+      "Systèmes",
+      "Stage"
     ],
-    "summary": "Déploiement et mise à disposition de Veyon pour la supervision des postes, dans un contexte de projet.",
+    "summary": "Mise en place et utilisation de Veyon pour permettre la supervision des postes informatiques.",
     "technologies": [
       "Veyon",
       "Windows"
@@ -62,17 +62,18 @@
     "document": ""
   },
   {
-    "title": "Création d’une liaison FTP pour le site Web du Bac Pro CIEL",
-    "period": "18/05/2026 → 19/06/2026",
-    "type": "Stage 1",
+    "title": "Création d’une liaison FTP pour le site Bac Pro CIEL",
+    "period": "Stage 1",
+    "type": "Stage",
     "categories": [
-      "Stage 1",
-      "Web"
+      "Web",
+      "Réseau",
+      "Stage"
     ],
-    "summary": "Mise en place d’une liaison FTP destinée au site web du Bac Pro CIEL.",
+    "summary": "Mise en place d’une liaison FTP permettant la gestion des fichiers du site du Bac Pro CIEL.",
     "technologies": [
       "FTP",
-      "Web"
+      "FileZilla"
     ],
     "competencies": [
       "3"
@@ -80,17 +81,18 @@
     "document": ""
   },
   {
-    "title": "Conception de TP réseaux — Samba & LDAP",
-    "period": "18/05/2026 → 19/06/2026",
-    "type": "Stage 1",
+    "title": "Conception d’un TP Samba & LDAP",
+    "period": "Stage 1",
+    "type": "Stage",
     "categories": [
-      "Stage 1",
-      "Réseaux"
+      "Systèmes",
+      "Projet BTS"
     ],
-    "summary": "Conception de travaux pratiques autour des services Samba et LDAP.",
+    "summary": "Conception et mise en œuvre d’un environnement utilisant Samba et LDAP pour la gestion des ressources et des utilisateurs.",
     "technologies": [
       "Samba",
-      "LDAP"
+      "LDAP",
+      "Linux"
     ],
     "competencies": [
       "4"
@@ -99,16 +101,16 @@
   },
   {
     "title": "Planification et organisation du travail hebdomadaire",
-    "period": "18/05/2026 → 19/06/2026",
-    "type": "Stage 1",
+    "period": "Stage 1",
+    "type": "Stage",
     "categories": [
-      "Stage 1",
-      "Organisation"
-    ],
-    "summary": "Planification et organisation des tâches réalisées pendant le stage.",
-    "technologies": [
       "Organisation",
-      "Gestion de projet"
+      "Projet BTS"
+    ],
+    "summary": "Organisation des tâches et planification du travail afin de suivre efficacement les différentes activités informatiques.",
+    "technologies": [
+      "Planification",
+      "Organisation"
     ],
     "competencies": [
       "4"
