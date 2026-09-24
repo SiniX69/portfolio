@@ -1,75 +1,120 @@
 [
   {
-    "icon": "⌁",
-    "name": "Réseaux",
-    "description": "Conception, configuration et diagnostic d’environnements réseau.",
-    "items": [
-      "Cisco",
-      "TP-Link L2/L3",
-      "VLAN",
-      "VoIP",
-      "DNS",
-      "Câblage rack",
-      "Stormshield"
-    ]
-  },
-  {
-    "icon": "▣",
-    "name": "Systèmes",
-    "description": "Administration et déploiement d’environnements Windows et Linux.",
-    "items": [
-      "Windows 10/11",
-      "Ubuntu",
-      "Debian",
-      "Apache",
-      "PXE",
-      "WDS"
-    ]
-  },
-  {
-    "icon": "⌘",
-    "name": "Services",
-    "description": "Mise en place et exploitation de services utiles aux utilisateurs.",
-    "items": [
-      "Samba",
-      "LDAP",
-      "FTP / VSFTPD",
-      "GLPI",
-      "Veyon",
-      "Squid"
-    ]
-  },
-  {
-    "icon": "◫",
-    "name": "Web",
-    "description": "Déploiement et administration de plateformes web.",
-    "items": [
-      "HTML/CSS",
+    "title": "Déploiement et administration de la plateforme web « Vos Rêves »",
+    "period": "06/01/2026 → 10/03/2026",
+    "type": "Projet BTS",
+    "location": "Lycée Algoud-Laffemas",
+    "categories": [
+      "Web",
+      "Projet BTS"
+    ],
+    "summary": "Conception, déploiement et administration d’un site e-commerce WordPress pour l’entreprise fictive « Vos Rêves », sur une infrastructure privée avec ISPConfig.",
+    "technologies": [
       "WordPress",
       "ISPConfig",
-      "FileZilla",
-      "MySQL"
-    ]
+      "FTP",
+      "DNS",
+      "MySQL",
+      "HTTP/HTTPS"
+    ],
+    "competencies": [
+      "3",
+      "4"
+    ],
+    "document": ""
   },
   {
-    "icon": "⚙",
-    "name": "Support & matériel",
-    "description": "Diagnostic, maintenance et résolution d’incidents techniques.",
-    "items": [
-      "Dépannage matériel",
+    "title": "Inventaire des maquettes Raspberry Pi et switchs",
+    "period": "18/05/2026 → 19/06/2026",
+    "type": "Stage 1",
+    "categories": [
+      "Réseau",
+      "Stage"
+    ],
+    "summary": "Inventaire et organisation du matériel réseau et des maquettes pédagogiques utilisées dans l’établissement.",
+    "technologies": [
       "Raspberry Pi",
-      "Smartphones"
-    ]
+      "Switchs"
+    ],
+    "competencies": [
+      "1"
+    ],
+    "document": ""
   },
   {
-    "icon": "◉",
-    "name": "Outils",
-    "description": "Outils et environnements rencontrés pendant la formation et les stages.",
-    "items": [
-      "BlackArch",
-      "Home automation",
+    "title": "Déploiement Veyon",
+    "period": "Stage 1",
+    "type": "Stage",
+    "categories": [
+      "Systèmes",
+      "Stage"
+    ],
+    "summary": "Mise en place et utilisation de Veyon pour permettre la supervision des postes informatiques.",
+    "technologies": [
       "Veyon",
-      "GLPI"
-    ]
+      "Windows"
+    ],
+    "competencies": [
+      "1",
+      "4",
+      "5"
+    ],
+    "document": ""
+  },
+  {
+    "title": "Création d’une liaison FTP pour le site Bac Pro CIEL",
+    "period": "Stage 1",
+    "type": "Stage",
+    "categories": [
+      "Web",
+      "Réseau",
+      "Stage"
+    ],
+    "summary": "Mise en place d’une liaison FTP permettant la gestion des fichiers du site du Bac Pro CIEL.",
+    "technologies": [
+      "FTP",
+      "FileZilla"
+    ],
+    "competencies": [
+      "3"
+    ],
+    "document": ""
+  },
+  {
+    "title": "Conception d’un TP Samba & LDAP",
+    "period": "Stage 1",
+    "type": "Stage",
+    "categories": [
+      "Systèmes",
+      "Projet BTS"
+    ],
+    "summary": "Conception et mise en œuvre d’un environnement utilisant Samba et LDAP pour la gestion des ressources et des utilisateurs.",
+    "technologies": [
+      "Samba",
+      "LDAP",
+      "Linux"
+    ],
+    "competencies": [
+      "4"
+    ],
+    "document": ""
+  },
+  {
+    "title": "Planification et organisation du travail hebdomadaire",
+    "period": "Stage 1",
+    "type": "Stage",
+    "categories": [
+      "Organisation",
+      "Projet BTS"
+    ],
+    "summary": "Organisation des tâches et planification du travail afin de suivre efficacement les différentes activités informatiques.",
+    "technologies": [
+      "Planification",
+      "Organisation"
+    ],
+    "competencies": [
+      "4"
+    ],
+    "document": ""
   }
 ]
