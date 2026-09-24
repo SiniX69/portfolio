@@ -1,50 +1,37 @@
 [
   {
-    "period": "2026 → aujourd’hui",
-    "title": "BTS SIO — SISR",
-    "organization": "Lycée Algoud Laffemas · Valence",
-    "description": "Deuxième année de BTS Services Informatiques aux Organisations, option Solutions d’Infrastructure, Systèmes et Réseaux.",
-    "tags": [
-      "Réseaux",
-      "Systèmes",
-      "Projet",
-      "Support"
-    ]
+    "title": "Technicien informatique",
+    "company": "Lycée Marius Bouvier",
+    "duration": "5 semaines",
+    "type": "Stage BTS SIO SISR",
+    "description": "Stage réalisé dans le cadre du BTS SIO SISR, avec des missions liées au support informatique, au diagnostic, à la maintenance et à l'assistance aux utilisateurs."
   },
   {
-    "period": "18/05/2026 → 19/06/2026",
-    "title": "Stage 1 — Technicien informatique",
-    "organization": "Lycée Marius Bouvier",
-    "description": "Travaux autour de l’inventaire, de la supervision Veyon, du FTP, de Samba/LDAP et de l’organisation du travail.",
-    "tags": [
-      "Stage",
-      "Veyon",
-      "FTP",
-      "Samba",
-      "LDAP"
-    ]
+    "title": "Technicien informatique",
+    "company": "Chambre de Métiers et de l'Artisanat Rhône",
+    "duration": "6 semaines",
+    "type": "Stage",
+    "description": "Découverte et participation aux activités de support et de maintenance informatique."
   },
   {
-    "period": "2025 → 2026",
-    "title": "Projet « Vos Rêves »",
-    "organization": "Salle 181",
-    "description": "Projet réalisé avec Théo : déploiement et administration d’une plateforme web WordPress sur serveur privé.",
-    "tags": [
-      "WordPress",
-      "ISPConfig",
-      "DNS",
-      "MySQL"
-    ]
+    "title": "Technicien informatique",
+    "company": "EVOLUTION 42",
+    "duration": "7 semaines",
+    "type": "Stage",
+    "description": "Participation à des activités liées à l'informatique et au support technique."
   },
   {
-    "period": "2022 → 2025",
-    "title": "Bac Pro SN-RISC",
-    "organization": "Formation précédente",
-    "description": "Baccalauréat professionnel Systèmes Numériques — Réseaux Informatiques et Systèmes Communicants. Mention Très Bien et félicitations du jury.",
-    "tags": [
-      "Réseaux",
-      "Systèmes",
-      "Informatique"
-    ]
+    "title": "Stage informatique",
+    "company": "CCIF",
+    "duration": "4 semaines",
+    "type": "Stage",
+    "description": "Participation aux activités informatiques de la structure."
+  },
+  {
+    "title": "Stage informatique",
+    "company": "ADISTA FINGERPRINT",
+    "duration": "3 semaines",
+    "type": "Stage",
+    "description": "Découverte et participation aux activités informatiques de l'entreprise."
   }
 ]
